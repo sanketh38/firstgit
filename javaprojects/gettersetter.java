@@ -6,7 +6,7 @@ public class gettersetter {
         private int x;
         private String red;
     
-    int getX(int y){
+    int setX(int y){
     this.x = y;
     System.out.println(y);
     return y;
@@ -15,7 +15,7 @@ public class gettersetter {
 
     public static void main(String[] args) {
         hello object1 = new hello();
-        object1.getX(10);
+        object1.setX(10);
         object1.x =11;
         object1.red="hello my name is sanketh";
         System.out.println(object1.x);
